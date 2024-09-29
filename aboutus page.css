@@ -1,0 +1,90 @@
+/* General Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-color: #000; /* Fallback color */
+    color: white;
+    text-align: center;
+    padding: 60px 0;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero p.lead {
+    font-size: 1.25rem;
+    margin-top: 1rem;
+}
+
+/* Navbar Styles */
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 15px;
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+}
+
+/* Team Section Styles */
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-img-top {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hero {
+        height: 300px;
+        padding: 40px 0;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p.lead {
+        font-size: 1rem;
+    }
+
+    .card-img-top {
+        width: 120px;
+        height: 120px;
+    }
+}

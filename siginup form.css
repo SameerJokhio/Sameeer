@@ -1,0 +1,114 @@
+/* Reset some default browser styles */
+body, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for the sign-up form */
+.signup-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Header styling */
+.signup-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+/* Form labels and inputs */
+.signup-container label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.signup-container input[type="text"],
+.signup-container input[type="email"],
+.signup-container input[type="password"] {
+    width: 90%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.signup-container input[type="password"] {
+    margin-bottom: 0.5rem;
+}
+
+/* Instructions for password strength */
+.password-instructions {
+    font-size: 0.875rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+/* Submit button styling */
+.signup-container button {
+    background-color: #f0c14b;
+    border: 1px solid #a88734;
+    color: #111;
+    padding: 0.75rem;
+    width: 100%;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.signup-container button:hover {
+    background-color: #e5a13f;
+}
+
+/* Legal and account switch text */
+.legal {
+    font-size: 0.875rem;
+    color: #666;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.legal a {
+    color: #0066c0;
+    text-decoration: none;
+}
+
+.legal a:hover {
+    text-decoration: underline;
+}
+
+/* Link to sign in */
+.signup-container hr {
+    margin: 1.5rem 0;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+.signup-container p:last-of-type {
+    text-align: center;
+}
+
+.signup-container p:last-of-type a {
+    color: #0066c0;
+    text-decoration: none;
+}
+
+.signup-container p:last-of-type a:hover {
+    text-decoration: underline;
+}

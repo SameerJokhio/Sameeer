@@ -1,0 +1,53 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.slider img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer p, footer h5 {
+    margin-bottom: 10px;
+}
+
+/* Button hover effect */
+button:hover, .btn:hover {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+
+/* Responsive fixes */
+@media (max-width: 768px) {
+    .slider img {
+        height: 300px;
+    }
+    
+    .card img {
+        height: 150px;
+    }
+}

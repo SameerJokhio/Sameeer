@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light background for contrast */
+    margin: 0;
+}
+
+.navbar {
+    margin-bottom: 30px; /* Space below the navbar */
+}
+
+.card {
+    transition: transform 0.2s; /* Smooth scaling effect on hover */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Scale up the card on hover */
+}
+
+.card img {
+    height: 200px; /* Fixed height for images */
+    object-fit: cover; /* Cover the card area while maintaining aspect ratio */
+}
+
+.card-title {
+    font-size: 1.25rem; /* Adjust font size for the title */
+}
+
+.card-text {
+    font-size: 1rem; /* Standard font size for text */
+    color: #555; /* A darker shade for better readability */
+}
+
+.btn {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: #fff; /* White text on buttons */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+footer {
+    position: relative; /* Position relative for footer */
+    bottom: 0; /* Stick to bottom */
+    width: 100%; /* Full width */
+    padding: 15px 0; /* Vertical padding */
+}
